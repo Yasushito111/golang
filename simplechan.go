@@ -17,8 +17,7 @@ func main() {
 		fmt.Println("gopher ", gopherID, "はスリープを終えました")
 	}
 }
-
-func sleppyGopher(id int, c chan int) {
+func sleepyGopher(id int, c chan int) {
 	time.Sleep(3 * time.Second)
 	fmt.Println("... ", id, "snore ...")
 }
