@@ -20,4 +20,5 @@ func main() {
 func sleepyGopher(id int, c chan int) {
 	time.Sleep(3 * time.Second)
 	fmt.Println("... ", id, "snore ...")
+	c <- id
 }
