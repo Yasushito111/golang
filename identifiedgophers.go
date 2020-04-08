@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func main() {
+func main2() {
 	for i := 0; i < 5; i++ {
 		go sleepyGopher(i)
 	}
