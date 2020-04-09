@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main(){
+func main() {
 	fmt.Println("hello, Nathan")
-	fmt.Println("にいはお　こんにちは　ダズヴィだーにゃ　hols")
+	fmt.Println("にいはお　こんにちは　ダズヴィだーにゃ　hols")d
 }
